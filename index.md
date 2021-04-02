@@ -1,37 +1,25 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/Michael-N-M/matare/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Michael-N-M/matare/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+ul#scene
+	li.layer(data-depth="0.0")
+	li.layer(data-depth="0.10")
+		.background
+	li.layer(data-depth="0.10")
+		#particules
+			#star.first
+	li.layer(data-depth="0.15")
+		#particules
+			#star.second
+	li.layer(data-depth="0.20")
+		div.logo
+			img(src="http://redekproject.fr/share/Logo.png" alt="logo")
+	li.layer(data-depth="0.30")
+		.text
+			p.sub-title We're currently working on our full site...
+	li.layer(data-depth="0.40")
+		.text
+			h1 Redek Project
+	li.layer(data-depth="0.42")
+		#particules
+			#star.third
+	li.layer(data-depth="0.60")
+		#particules
+			#star.fourth
