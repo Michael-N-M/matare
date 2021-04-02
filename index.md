@@ -10,7 +10,7 @@ ul#scene
 			#star.second
 	li.layer(data-depth="0.20")
 		div.logo
-			img(src="http://redekproject.fr/share/Logo.png" alt="logo")
+			img(src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.fizdi.com%2Fafrican-tribal-art-3-prt_533-canvas-art-print-27in-x-19in%2F&psig=AOvVaw0dg-5eiEmrSa6sGhG2sFKI&ust=1617456143518000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJjcr_HT3-8CFQAAAAAdAAAAABAL" alt="logo")
 	li.layer(data-depth="0.30")
 		.text
 			p.sub-title We're currently working on our full site...
